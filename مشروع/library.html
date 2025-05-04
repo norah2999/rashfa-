@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Library</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      background-color: #f5f5f5;
+      padding: 20px;
+    }
+
+    .library {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .item {
+      background: white;
+      padding: 10px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    .item img,
+    .item video {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      object-fit: cover;
+    }
+  </style>
+</head>
+<body>
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>My Library</title>
+    <style>
+      body {
+        font-family: 'Arial', sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+        text-align: center;
+      }
+  
+      h1 {
+        padding: 20px;
+        color: #333;
+      }
+  
+      .video-section {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        flex-wrap: wrap;
+        margin-bottom: 40px;
+      }
+  
+      .video-section video {
+        width: 400px;
+        height: 250px;
+        border-radius: 10px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      }
+  
+      .image-gallery {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 30px;
+        margin-bottom: 50px;
+      }
+  
+      .image-gallery img {
+        width: 250px;
+        height: 250px;
+        object-fit: cover;
+        border-radius: 10px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      }
+  
+      footer {
+        background-color: #222;
+        color: white;
+        padding: 15px;
+        font-size: 14px;
+      }
+    </style>
+  </head>
+  <body>
+  
+    <h1>My Library</h1>
+  
+    <!-- قسم الفيديوهات -->
+    <div class="video-section">
+      <video controls>
+        <source src="coffee1-Video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+  
+      <video controls>
+        <source src="coffee2-Video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  
+    <!-- قسم الصور -->
+    <div class="image-gallery">
+      <img src="coffee1.jpg.jpeg" alt="Coffee Photo 1">
+      <img src="coffee2.jpg.jpeg" alt="Coffee Photo 2">
+      <img src="coffee3.jpg.jpeg" alt="Coffee Photo 3">
+      <img src="coffee4.jpg.jpeg" alt="Coffee Photo 4">
+    </div>
+  
+    <footer>
+      &copy; 2025 Rashfa Coffee
+    </footer>
+  
+  </body>
+  </html>
+  
+
+
